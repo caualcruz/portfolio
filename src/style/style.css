@@ -79,8 +79,6 @@ width: 100%;
 margin-left: 20px;
 }
 
-.pjts
-
 .cards{
     height: 170px;
     margin-left: 10%;
@@ -93,6 +91,7 @@ margin-left: 20px;
     text-align: center;
     margin-right: 30px;
 }
+
 
 
 @media (max-width:785px){
