@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,13 +9,13 @@
     text-decoration: none;
 }
 
-body{
+body {
     color: black;
     background-color: white;
 }
 
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,42 +26,42 @@ body{
     transition: all 0.5s;
 }
 
-.navigation .logo{
+.navigation .logo {
     color: black;
     font-size: 1.5rem;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     color: black;
     font-size: 18px;
     transition: all 0.6s;
 }
 
-.navigation ul li a:hover{
+.navigation ul li a:hover {
     color: blue;
 }
 
-.menu{
+.menu {
     display: none;
 }
 
-.menu .bar{
-display: block;
-width: 20px;
-height: 3px;
-border-radius: 3px;
-background: black;
-margin: 5px;
-transition: all 0.4s;
+.menu .bar {
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 3px;
+    background: black;
+    margin: 5px;
+    transition: all 0.4s;
 }
 
-.inicio{
+.inicio {
     width: 100%;
     height: 100%;
     display: flex;
@@ -70,47 +70,73 @@ transition: all 0.4s;
     padding: 20px 10%;
 }
 
-.inicio-txt h1{
+.inicio-txt h1 {
     font-size: 40px;
 }
 
-.inicio-img img{
-width: 100%;
-margin-left: 20px;
+.inicio-img img {
+    width: 100%;
+    margin-left: 20px;
 }
 
-.cards{
-    height: 170px;
-    margin-left: 10%;
+.pjts {
     display: flex;
-    margin-bottom: 30px;
 }
 
-.card{
+.cards {
+    height: 170px;  
+}
+
+.card {
     box-shadow: 0 0.1rem 0.5rem rgb(145, 145, 145);
     text-align: center;
     margin-right: 30px;
+    margin-top: 20px;
+}
+
+.left-space {
+    margin-left: 40%;
 }
 
 
 
-@media (max-width:785px){
-    .navigation{
+.imgs{
+    background-image: url(/src/img/IMG_20230810_170720.jpg);
+    background-size: 300px;
+    height: 500px;
+    width: 425px;
+    
+    background-repeat: no-repeat;
+    margin-left: 55px;
+}
+
+#picD{
+    height: 565px;
+    width: 100%;
+}
+
+@media (max-width:785px) {
+    .navigation {
         padding: 18px 20px;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    .menu.ativo .bar:nth-child(1){
+
+    .menu.ativo .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .menu.ativo .bar:nth-child(2){
+
+    .menu.ativo .bar:nth-child(2) {
         opacity: 0;
     }
-    .menu.ativo .bar:nth-child(3){
+
+    .menu.ativo .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .nav-menu{
+
+    .nav-menu {
         position: fixed;
         right: -100%;
         top: 70px;
@@ -121,31 +147,57 @@ margin-left: 20px;
         gap: -10px;
         transition: 0.3s;
     }
-    .nav-menu.ativo{
+
+    .nav-menu.ativo {
         right: 0;
     }
-    .nav-item{
+
+    .nav-item {
         margin: 16px 0;
     }
 
-    .inicio{
+    .inicio {
         padding: 10px 2%;
         flex-direction: column;
         text-align: center;
         gap: 5rem;
         margin-bottom: 10px;
     }
-    .inicio-img img{
+
+    .inicio-img img {
         width: 300px;
         margin-right: 20px;
     }
-    ::-webkit-scrollbar{
+
+    ::-webkit-scrollbar {
         background-color: rgb(85, 85, 85);
         width: 8px;
     }
-    ::-webkit-scrollbar-thumb{
+
+    ::-webkit-scrollbar-thumb {
         background-color: rgb(109, 109, 109);
-    
+    }
+
+    .pjts {
+        display: block;
+    }
+
+    .cards {
+        height: 170px;
+    }
+
+    .card {
+        box-shadow: 0 0.1rem 0.5rem rgb(145, 145, 145);
+        text-align: center;
+        margin-right: 60px;
+        margin-top: 20px;
     }
     
+.left-space {
+    margin-left: 25%;
+}
+#card3{
+    margin-top: 27%;
+    margin-left: 5%;
+}
 }
