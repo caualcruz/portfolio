@@ -2,6 +2,11 @@ body{
     overflow: scroll;
 }
 
+.inicio{
+    display: flex;
+    justify-content: left;
+}
+
 .inicio button{
     border: transparent;
     padding: 0px 7px;
@@ -27,7 +32,7 @@ body{
 }
 
 .card{
-    box-shadow: 0 0.5rem 0.8rem rgb(145, 145, 145);
+    box-shadow: 0 0.5rem 0.8rem rgb(145, 145, 145); 
 }
 
 .card-img-top{
