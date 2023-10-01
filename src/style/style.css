@@ -12,6 +12,7 @@
 body {
     color: black;
     background-color: white;
+    overflow: hidden;
 }
 
 
@@ -74,9 +75,28 @@ body {
     font-size: 40px;
 }
 
+.inicio-txt button{
+    border: transparent;
+    padding: 0px 7px;
+    border-radius: 13px;
+    margin-top: 20px;
+    margin-right: 13px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(145, 145, 145);
+    transition: all 0.5s;
+}
+
+.inicio-txt button:hover{
+    border: transparent;
+    background-color:rgb(86, 86, 221) ; 
+    box-shadow: 0 0.4rem 0.9rem rgb(48, 0, 160);
+    transform: scale(1.1);
+}
+
 .inicio-img img {
-    width: 100%;
-    margin-left: 20px;
+    width: 90%;
+    margin-left: 30px;
 }
 
 .pjts {
@@ -178,7 +198,7 @@ body {
         background-color: rgb(109, 109, 109);
     }
 
-    .pjts {
+    /* .pjts {
         display: block;
     }
 
@@ -199,5 +219,5 @@ body {
 #card3{
     margin-top: 27%;
     margin-left: 5%;
-}
+} */
 }
