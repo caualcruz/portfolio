@@ -40,3 +40,30 @@ body{
     height: 150px;
     object-fit: cover;
 }
+
+.galeria{
+display: flex;
+height: 100vh;
+width: 100%;
+}
+
+.galeria img{
+    aspect-ratio: 16/16;
+    min-width: 0;
+    flex: 1 1 50px;
+    object-fit: cover;
+    opacity: .7;
+    transition: .5s;
+}
+
+.galeria img:hover{
+    flex: 1 1 100px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
