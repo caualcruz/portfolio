@@ -1,11 +1,23 @@
 body{
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .inicio{
     display: flex;
     justify-content: left;
 }
+
+::-webkit-scrollbar {
+    background-color: rgb(85, 85, 85);
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(109, 109, 109);
+}
+
+
 
 .inicio button{
     border: transparent;
@@ -51,6 +63,7 @@ body{
     box-shadow: 0 0.2rem 0.9rem 0 rgb(61, 61, 61);
     margin-right: 30px;
     transition: all 0.5s;
+    border-radius: 10px;
 }
 
 .pic:hover{

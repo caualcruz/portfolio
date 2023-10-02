@@ -15,7 +15,6 @@ body {
     overflow: hidden;
 }
 
-
 .navigation {
     display: flex;
     align-items: center;
@@ -137,6 +136,10 @@ body {
 #picD{
     height: 565px;
     width: 100%;
+}
+
+button{
+    cursor: pointer;
 }
 
 @media (max-width:785px) {
