@@ -95,6 +95,44 @@ body {
     background-color:rgb(86, 86, 221) ; 
     box-shadow: 0 0.4rem 0.9rem rgb(48, 0, 160);
     transform: scale(1.1);
+}   
+
+.inicio-txt a{
+    color: black;
+}
+
+.inicio-txt i{
+    margin: 3px;
+}
+
+.inicio-txt i{
+    font-size: 45px;
+    transition: all 0.5s;
+}
+
+.inicio-txt i:hover{
+    transform: scale(1.2);
+}
+
+#ins:hover{
+    color:rgb(97, 1, 97);
+    
+}
+#ins:hover{
+    color:rgb(97, 1, 97);
+    
+}
+#in:hover{
+    color: blue;
+    
+}
+#mail:hover{
+    color: red;
+    
+}
+#whats:hover{
+    color: green;
+    
 }
 
 .inicio-img img {
