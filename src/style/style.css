@@ -70,6 +70,18 @@ body {
     padding: 20px 10%;
 }
 
+.inicio-txt{
+    margin-top: 300px;
+}
+
+.inicio-img{
+    margin-top: 200px;
+}
+
+.inicio-img img{
+    border-radius: 100%;
+}
+
 .inicio-txt h1 {
     font-size: 40px;
 }
@@ -83,7 +95,7 @@ body {
     height: 40px;
     text-align: center;
     box-shadow: 0 0.1rem 0.5rem rgb(145, 145, 145);
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .inicio-txt button a{
